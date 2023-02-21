@@ -1,0 +1,23 @@
+Design
+  Accept string as argument
+  Accept string from user in console
+CSV of ascii characters
+  Load csv into a dictionary
+Compare string chars to dictionary keys
+    If hit: increment the value of that key
+    If miss: add key to array of absent chars
+Sort values of dictionary
+    Return last three values as top 3 recurring
+
+
+for (int i = 0; i < csv.Length; i++)
+{
+	if(key[m] == string[n])	 
+
+Loop through Keys in dictionary
+
+That key’s value++
+
+If miss, put key into an array then print at end
+
+Print top three
