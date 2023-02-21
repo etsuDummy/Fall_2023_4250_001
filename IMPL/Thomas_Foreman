@@ -1,0 +1,121 @@
+# Using Recursion; take two numbers in from the user (a human) and 
+# add them together then separate the least significant digit and 
+# add it the remaining digits and so on until you have a single digit answer. 
+# EX: 87345 => 8734+5= 8739 => 873+9 = 882 => 88 + 2 = 90 => 9+0 =9
+# Thomas Foreman
+
+
+def main():
+    validated = False
+
+    while not validated:
+        first_num = input("Please enter a whole number:\n")
+        second_num = input("Please enter a second whole number:\n")
+
+        if first_num.isdigit() and second_num.isdigit():
+            # print("Validated")
+            validated = True
+        
+
+    if first_num and second_num:
+        new_num = int(first_num) + int(second_num)
+        print(f"{first_num} + {second_num} = {new_num}")
+        found_single_digit = False
+        new_num = helper(new_num)
+
+        while not found_single_digit:
+            if len(str(new_num)) == 1:
+                found_single_digit = True
+                print(f"LAST DIGIT = {new_num}")
+            else:
+                new_num = helper(new_num)
+
+
+
+
+def helper(num):
+    new_num = str(num)
+    least_significant_digit = new_num[-1]
+    least_significant_digit = int(least_significant_digit)
+
+    next_num = int(new_num.replace(str(least_significant_digit), ""))
+
+    final_num = int(next_num) + int(least_significant_digit)
+
+    return final_num
+
+
+main()
+
+
+# Take in a string (from a user or a file), compute the total number of occurrences 
+# of each character in the ASCII set. Print out the top three characters (with the most occurrences). 
+# Print out how many characters in the ASCII set you didn’t detect. Then print out the string in reverse order.
+# Thomas Foreman
+import string
+import json
+
+character_dict = {
+    "characters": []
+}
+
+
+def helper(ascii_list, element):
+    counter = 0
+    for char in ascii_list:
+        if char == element:
+            counter += 1
+    
+    return counter
+
+
+def main():
+    validated = False
+
+    while not validated:
+        user_string = input("Please enter a word:\n")
+        if user_string:
+            validated = True
+
+
+
+    # stripping any blank spaces from the user string entered
+    user_string = user_string.strip()
+
+    ascii_list = []
+
+    for char in user_string:
+        character_dict['characters'].append({"char": char, "ascii": ord(char)})
+        ascii_char = ord(char)
+        ascii_list.append(ascii_char)
+    
+    for element in ascii_list:
+        count = helper(ascii_list=ascii_list, element=element)
+
+        for chard in character_dict['characters']:
+            if element == chard['ascii']:
+                chard['count'] = count
+
+
+        print(f"ELEMENT: {element} occurs {count}")
+    print(f"ASCII LIST: {ascii_list}")
+
+    # print(character_dict)
+
+    # removes duplicates in the list of dictionaries
+    # citation https://stackoverflow.com/questions/9427163/remove-duplicate-dict-in-list-in-python
+    char_set = set()
+    new_list = []
+    for char_dict in character_dict['characters']:
+        new_tuple = tuple(char_dict.items())
+        if new_tuple not in char_set:
+            char_set.add(new_tuple)
+            new_list.append(char_dict)
+
+    # I didn't print out any ascii characters not found. I'm assuming anything typed from a keyboard is an ASCII character?
+
+    print(json.dumps(new_list, indent=4, sort_keys=True))
+    
+    print(f"REVERSED WORD/STRING: {user_string[::-1]}")
+
+main()
