@@ -1,0 +1,15 @@
+C:\Users\jacob\Desktop\ETSU\CSCI 4250 Software Engineer\week 6\session 10 implementation\Code\Recursive Exercise\Recursive Exercise\bin\Debug\net6.0\Recursive Exercise.exe
+C:\Users\jacob\Desktop\ETSU\CSCI 4250 Software Engineer\week 6\session 10 implementation\Code\Recursive Exercise\Recursive Exercise\bin\Debug\net6.0\Recursive Exercise.deps.json
+C:\Users\jacob\Desktop\ETSU\CSCI 4250 Software Engineer\week 6\session 10 implementation\Code\Recursive Exercise\Recursive Exercise\bin\Debug\net6.0\Recursive Exercise.runtimeconfig.json
+C:\Users\jacob\Desktop\ETSU\CSCI 4250 Software Engineer\week 6\session 10 implementation\Code\Recursive Exercise\Recursive Exercise\bin\Debug\net6.0\Recursive Exercise.dll
+C:\Users\jacob\Desktop\ETSU\CSCI 4250 Software Engineer\week 6\session 10 implementation\Code\Recursive Exercise\Recursive Exercise\bin\Debug\net6.0\Recursive Exercise.pdb
+C:\Users\jacob\Desktop\ETSU\CSCI 4250 Software Engineer\week 6\session 10 implementation\Code\Recursive Exercise\Recursive Exercise\obj\Debug\net6.0\Recursive Exercise.csproj.AssemblyReference.cache
+C:\Users\jacob\Desktop\ETSU\CSCI 4250 Software Engineer\week 6\session 10 implementation\Code\Recursive Exercise\Recursive Exercise\obj\Debug\net6.0\Recursive Exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacob\Desktop\ETSU\CSCI 4250 Software Engineer\week 6\session 10 implementation\Code\Recursive Exercise\Recursive Exercise\obj\Debug\net6.0\Recursive Exercise.AssemblyInfoInputs.cache
+C:\Users\jacob\Desktop\ETSU\CSCI 4250 Software Engineer\week 6\session 10 implementation\Code\Recursive Exercise\Recursive Exercise\obj\Debug\net6.0\Recursive Exercise.AssemblyInfo.cs
+C:\Users\jacob\Desktop\ETSU\CSCI 4250 Software Engineer\week 6\session 10 implementation\Code\Recursive Exercise\Recursive Exercise\obj\Debug\net6.0\Recursive Exercise.csproj.CoreCompileInputs.cache
+C:\Users\jacob\Desktop\ETSU\CSCI 4250 Software Engineer\week 6\session 10 implementation\Code\Recursive Exercise\Recursive Exercise\obj\Debug\net6.0\Recursive Exercise.dll
+C:\Users\jacob\Desktop\ETSU\CSCI 4250 Software Engineer\week 6\session 10 implementation\Code\Recursive Exercise\Recursive Exercise\obj\Debug\net6.0\refint\Recursive Exercise.dll
+C:\Users\jacob\Desktop\ETSU\CSCI 4250 Software Engineer\week 6\session 10 implementation\Code\Recursive Exercise\Recursive Exercise\obj\Debug\net6.0\Recursive Exercise.pdb
+C:\Users\jacob\Desktop\ETSU\CSCI 4250 Software Engineer\week 6\session 10 implementation\Code\Recursive Exercise\Recursive Exercise\obj\Debug\net6.0\Recursive Exercise.genruntimeconfig.cache
+C:\Users\jacob\Desktop\ETSU\CSCI 4250 Software Engineer\week 6\session 10 implementation\Code\Recursive Exercise\Recursive Exercise\obj\Debug\net6.0\ref\Recursive Exercise.dll
