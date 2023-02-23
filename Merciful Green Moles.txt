@@ -1,0 +1,65 @@
+Members: Ben Smith, Maxwell Key, DJ Jones, Richard Cashion 
+
+Despawn: the deletion of an object instance 
+
+    1. Closed box test that the implementation of the missile object has a visible sprite 
+
+    	1.a Closed box test that the right mouse button creates a missile object instance in the correct location and at the right time, and that it does not fire more than one missile as the button is down 
+
+   	1.b Closed box test that the space bar creates a missile object instance in the correct location and at the right time and that it does not fire more than one missile as the button is down 
+
+   	1.c Closed box test that the game keep track of how many missiles are on screen at a single time and prevent the user from firing more missiles if there are five on the screen 
+
+  	1.d Open box test that the missile despawns once it goes beyond the screen by temporarily making the screen larger to see it despawn in real time 
+
+ 	1.e Closed box test to verify that each missile visually moves at the same speed 
+
+ 	1.f Open box test to determine that when the missile is launched it is coming from the expected location, which is from the bottom center of the screen.  
+
+    	1.g Closed box test ensuring that when the solution is run, it is held in a constant fixed position that keeps the missiles shooting vertically only. 
+
+    	1.h Closed box test where when a missile collides with a ship, the ship despawns in real time. 
+
+    	1.i Closed box test that when a ship despawns from a missile impact, a visual explosion is shown at the impact location. 
+
+    	1.j Closed box test that when a missile impacts a ship, they both visually disappear from the screen. 
+
+    	1.k Closed box test that visually displays a counter on screen that increases once for every ship that is hit by a missile. 
+
+    2. Closed box test that ship object instances have visible sprites 
+
+    	2.a Open box test - Run a method to clear all active ships without ending the level to make sure a new ship is launched when there are no active ships 
+
+    	2.b Open box test - Enter the configurable values to make sure all of the different unique ship types are the correct ones being initiated 
+
+    	2.c See 2.b 
+
+    	2.d Create a method that launches ships 30% of the time. Test by watching the number of ships being generated over a 1-minute time frame. For default settings, there should be one ship generated every 18 seconds. 
+
+    		2.d.i Create a method to randomly choose between an array of ships. Watch gameplay for extended period of time to collect averages of the ships released. If random, over time the ships should have equal percentages 
+
+    		2.d.ii Contradicted by releasing ships at configurable rate. Create method that checks for “active ships” that stops ships from generating after 10 ships are currently active 
+
+    		2.d.iii Have map divided into horizontal sections. Use method that randomly selects spawn point. Watch over extended period of time to see if each spawn location is used at roughly the same rate. 
+
+    			2.d.iii.1 Similar to above, have method, or use of the same method used above, dictate that ship must spawn randomly on left or right side of screen. Watch over time to ensure roughly equal number of spawns to each side. 
+
+    			2.d.iii.2 Overlaps with random location requirement above. Test by having code that designates upper two-thirds of screen as the only location ships can spawn. 
+
+    			2.d.iii.3 In classes that define ships, have speed as an attribute. Test by watching generated ships travel across screen and see if they travel at desired speed. 
+
+    			2.d.iii.4 After defining behavior in class or method, test by watching ships travel across screen. Will know if ships going opposite direction by only appearing on screen momentarily. 
+
+    	2.e Closed box test - Test by starting the game and not shooting any ships, there can only be 10 ships at a time and they will all leave the screen so if the game is no longer spawning ships when none are destroyed than the ships leaving the screen are not deactivated 
+
+    3. Closed box test that the game can keep track of how many ships have been hit, and that the game ends once ten hits have been registered 
+
+    4. Closed box test that when the left mouse button goes down, the game ends 
+
+    5. Closed box test that once the esc key goes down, the game ends 
+
+    6. Closed box test where a timer is reset each time a missile is fired, and has the ability to end the game if this timer reaches 5 minutes. 
+
+ 
+
+ 
