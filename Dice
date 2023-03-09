@@ -1,0 +1,8 @@
+User initiates the first roll of all 5 dice (random values between 1 and 6 inclusively). 
+Display all 5 and allow the user to either score the roll or select which dice to keep and which reroll (if any). 
+User initiates reroll if die were selected to reroll. Display all 5 dice and allow the user to score the roll or 
+select which dice to keep and which to reroll (if any) one more time. 
+	To score the roll, add all the values of the dice. 
+	Show the score to the user and allow them to continue. If they choose to leave, display the totals for all their 
+  rolls in the order they made them along with an indication of how many times they rerolled and how many dice they 
+  rerolled in total (not counting the first roll).
