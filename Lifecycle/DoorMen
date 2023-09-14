@@ -1,0 +1,39 @@
+Team DoorMen: Anthony Vandergriff, Ben Merritt, Grant Scutt, Carson Crysdale, Patric Vergason.
+
+CMMI: Capability, Maturity, Model, Integration
+
+First Activity:
+  Requirements - The expectations of what the program should be able to do.
+  Design - High-level, overview development of possible solutions.
+  Implementation - The coding or work of creating the software/product.
+  Testing - Ensuring the current solution meets requirements.
+  Release - Everything "released" to the public - finished product release notes, documents, etc.
+  Support/Maintenance - Changes to keep the software/product running in its environment.
+  Upgrades/Updates - Changes resulting in new features/modifications to the existing design.
+
+Second Activity:
+          Requirements:
+                - Precise definition of what is expected from some piece of software
+                - Solution constraints
+                - Atomic style requirements
+                - Asking the client/stakeholder what they hate currently, must keep, want, need, etc.
+                - Rules and parameters that the software needs to follow
+                - Investigate what the client/stakeholder ACTUALLY needs
+                - Functional/non-functional and Mandatory/optional
+          Design:
+                - Breaking down the requirements into solvable tasks
+                - Determining the "how" of requirements as well as what hardware/software is needed
+                - Brainstorming and creating ways in a very detailed method to create a program based on requirements
+                - Detailed design document
+                - Determining the architecture with high-level design and traceability
+          
+          Implementation:
+                - Developing code solutions based on the design
+                - Coordination of the communication between the hardware and software
+                - Application of the design stage to create an initial version of the product
+
+          Testing:
+                - Ensuring the product created in the implementation phase meets the requirements set previously
+                - Developing test cases to prevent unwanted outcomes.
+                - Debugging the code to find bugs or awry results
+                - Determining points of weakness from a developed solution and then designing tests based on those weaknesses
