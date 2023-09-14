@@ -2,3 +2,49 @@ Team Members: Noah Horner, Taj Jivan, Austin Mahala, Josh Pearman
 
 Task: Define CMMI.
 A model to evaluate current practices lay out a path for improvements and consistency.
+
+Activity One Results:
+  Requirements: Documentation of what is required.
+  Design: Brain storming to implement how to meet and exceed the customers expectations on the project.
+  Implementation: Manifesting the design into code and a testable project.
+  Testing: Using the product from the perspective of a user to test the product to patch and resolve bugs.
+  Release: The finished product is launched to be used by the end user.
+  Support/Maintenance: Finding and solving problems not initially found in testing.
+  Update: Once product is released, improvements are released in the product.
+
+Requirements:
+ - Determining the required functionality of the final product by asking the customer clarifying questions.
+ - Mandatory vs optional. (Example: Code language)
+ - Functional and non-functional.
+ - Document in SRS (Software Requirements Specification).
+
+Design:
+ - Creating flow charts fpr high level design.
+ - Numbering Requirement.
+ - Documenting how to satisfy requirements.
+ - Using pseudocode/UML for low level design.
+ - Requirements traceability matrix.
+ - Division of requirements into smaller tasks.
+
+Implementation:
+ - Self-documented code with detailed notes based on the UML, flow charts, and pseudocode.
+ - Update all documents as the program creation progresses.
+ - Requirement traceability matrix post condition.
+
+Testing:
+ - Checking for unpredicted bugs and ensuring the code runs efficiently and as expected.
+ - Multiple high level design support systems for a single solution.
+ - Test documents are broken down into individual test cases and captured in multiple documents.
+ - Testing for each document.
+ - Creating solutions for the test cases.
+ - RTM on the test cases.
+ - Documenting the test results.
+
+Maintenance/Support:
+ - Collect bug/crash reports.
+ - Design and test solutions for bugs and crashes.
+ - Decide priority on bugs based on requirements.
+ - Fixing and improving current functionality of the release.
+
+Update:
+ - Adding new functionality and/or design changes.
