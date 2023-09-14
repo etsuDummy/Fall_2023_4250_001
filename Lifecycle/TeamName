@@ -1,0 +1,32 @@
+Dylan Pogue
+William Roe
+Jacob Manis
+Thomas Justice
+Sydnie Dery
+
+CMMI - Capability Maturity Model Integration: Describes how an organization goes through the Tuckman Model.
+
+Requirements:
+  - A textual description of what the product/solution needs to be able to do for it to be deemed successfully created.
+  - Functional/Non Functional
+  - Mandatory/Optional
+  - Usually a single document
+Design:
+  - Making a plan that can be mapped back to the requirements
+  - Brainstorm
+  - UML Diagrams/Other planning documents
+Implementation:
+  - Following the design to produce well written code and fullfilling requirements
+Testing:
+  - Ensure the Implementation follows the design and meets the requirements
+  - Test Cases
+  - Validation
+  - Tends to be the weakest part of the development process
+Publish/Release:
+  - Submit the work to the client/customer as a working product
+Maintenance:
+  - Release bug fixes/patches to maintain the product over a period of time
+  - Can be performed based off of feedback
+Upgrades:
+  - Making changes to improve the product after the release
+  - Addition of requirement may lead to new functionality being introduced
