@@ -4,3 +4,105 @@ What is CMMI?
 CMMI is a process level improvement training and appraisal program. CMMI stand for capability maturity model integration.
 There are several uses for the CMMI process. Some of which are: improving customer satisfaction, increasing value for stockholders, and producting quality services or products.
 This is done by helping organiations understand their current level of capability and performance to optimize the way they operate.
+
+*Group Exercise Results*
+
+Requirements:
+Ideas:
+"Breakin down problems into smaller problems."
+"Find timeline for each requirment to be added."
+"Gathering Requirements."
+"Gathering / Identifying materials needed."
+"What features need to be added."
+"Discuss software needed."
+"Requirements aid the design process."
+"Parts of a problem to be solved."
+
+Best Selected:
+"Gathering info that describes what needs to be done / completed and materials needed."
+
+Design:
+Ideas:
+"Shifting labor as requirements demands."
+"Psudo code."
+"Theme / UI."
+"How the finished product will look (Visual Design)."
+"Identify timeframe of completion."
+"Check what technologies are needed to meeet requirements."
+"Ask customer for requirements."
+"Check for compliance within needed technology."
+"Breaking requirements into smaller problems can help to ensure you meed the entire scope of the requirements."
+"Identify any concerns."
+"Design includes all the requirements."
+"Find what technology will be best for the requirements."
+"Creating a UML diagram."
+"Flowcharts"
+"Timeline"
+"Design blends well with chosen development model (waterfall, agile, ect.)."
+"Prototype"
+"Timeline for completion or milestone to hit in order to complete."
+"Design the solution from the requirements."
+"Prototyping a solution."
+"Planning out the method of completion and how the project will be constructed."
+
+Best Selected:
+"Planning the implementation of code and how it will try to meet certain requirements."
+
+Implementation:
+Ideas:
+"Writing code."
+"Combining parts of the whole (When team members working seperately)."
+"Uses the same programming language throughout the implementation of the design to meet the requirements."
+"Implementation follows design and it doesn't stray from it."
+"Coding the solution to meet requirements."
+"Implement the design with code."
+
+Best Selected:
+"Writing the code to create useable software / programs that will solve requirements of a problem."
+
+Testing:
+Ideas:
+"Ensuring all aspects work together (compatiable)."
+"Test features to ensure they are bug free and meet requirements."
+"Functions with out problems."
+"Testing shows if the implementation solves the requirements."
+"Ensure all requirements are met."
+"Has certain test cases that need to be met."
+"Testing cases."
+"Test against requirements."
+"Testing the solution."
+"The process of seeing if the implementation solves a problem's set of requirements, through meeting certain test cases."
+"Test the solution to ensure nothing is broken and is working correctly."
+
+Best Selected:
+"Checking the work to ensure that it functions as laid out in requirements and design."
+
+Release:
+Ideas:
+"Submitting the finished product for public / customer use."
+"The process of providing the implementation of a program to the user."
+"Getting the software to a point where it meets requirements and is ready for use by the customer."
+
+Best Selected:
+"Releasing a refined solution that meets the requirements and that the customer is comfortable with.'
+
+Support / Maintenance:
+Ideas:
+"Last chance for necessary requirements."
+"Continure to update the software and fix bugs."
+"Continue to check on the product after release and troubleshoot if necessary."
+"Tackling a problem or adding clarification to use a release of an implementation."
+
+Best Selected:
+"Fixing bugs within the solution and resolving issues with the solution."
+
+Updates / Upgrades:
+Ideas:
+"Consult the customer for any changes."
+"Make changes and improvements after release aws problems arises or new implementations are beneficial."
+"Add new features to the software."
+"Adding to an existing implementation to increawse features or make necesary changes."
+
+Best Selected:
+"Introducing new features aned optional requirements into the existing solution."
+
