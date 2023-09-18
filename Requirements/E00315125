@@ -1,0 +1,14 @@
+Software Engineering 1
+Requirements exercise 1 (Ball Game):
+
+Ball needs to be able to bounce off any one side of the screen.
+
+If ball goes into corner of the screen, then one side will be selected at random as side of impact to reflect ball.
+
+Ball needs to bounce off any user drawn object larger than 3 pixels. 
+
+User drawn objects 3 pixels and less should not cause the ball to bounce off object.
+
+ Ball should pass through object if 3 pixels or less in size.
+
+User drawn object must be drawn with the mouse.
