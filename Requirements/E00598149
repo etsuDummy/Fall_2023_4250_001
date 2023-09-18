@@ -1,0 +1,5 @@
+ball game requiremnts
+- must allow users to draw shapes at lease 3px large 
+- must be able to launch from desktop 
+- must calculate ball trajectory
+- must persistently store user created shapes 
