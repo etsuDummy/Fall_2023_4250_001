@@ -1,0 +1,7 @@
+A "game over" message should appear when the user crashes
+
+Make sure the different obstacles are accounted for
+
+Make sure the game has a limit and no errors occur once the game reaches a certain point
+
+A startup menu should be created for the user to modify settings or start the game 
