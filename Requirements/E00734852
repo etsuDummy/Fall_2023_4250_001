@@ -1,0 +1,23 @@
+Functional:
+
+The system must have a control system.
+
+The system must have a collision system.
+
+The system must have strict bounds.
+
+The system must allow acceleration/de
+
+The system must have a winning feature if obstacles avoided.
+
+The system must have a losing feature if obstacle hit.
+
+The system must support at least 1 player.
+
+Non-Functional:
+
+The system must have clearly shown bounds.
+
+The system must have entities driving related for obstacles.
+
+The system must have entity for at least 1 player.
