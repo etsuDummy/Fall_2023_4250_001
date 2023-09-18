@@ -1,0 +1,5 @@
+Pong:
+1. The user MUST use mouse input to draw obstacles 3 pixels or larger.
+2. The ball MUST collide with the obstacles on the screen.
+3. The ball MUST collide with the walls of the screen.
+4. The ball MUST switch directions (180*) upon collision.
