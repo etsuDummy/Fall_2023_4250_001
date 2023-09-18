@@ -1,0 +1,8 @@
+ Requirements:
+                - Precise definition of what is expected from some piece of software
+                - Solution constraints
+                - Atomic style requirements
+                - Asking the client/stakeholder what they hate currently, must keep, want, need, etc.
+                - Rules and parameters that the software needs to follow
+                - Investigate what the client/stakeholder ACTUALLY needs
+                - Functional/non-functional and Mandatory/optional
