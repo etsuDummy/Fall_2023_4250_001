@@ -5,3 +5,57 @@ Isaac Simmons
 Dan Tucker
 Nicholas Sells
 Christian Crawford
+
+Sticky note information:
+- Lifecycle Definitions:
+  - Requirements: Gather info from the client about what they want. Make sure you know exactly what they want. Talk to the customer to establish what's possible and what's not. Establish budgeting. 
+  - Design: Use the requirements to sketch out a high-level outline of the solution. No nitty gritty, just abstract structure.
+  - Implementation: Process of implementing the design into a solution.
+  - Testing: Write test cases for every bit of functionality. Use these to confirm that all works as intended and that the requirements are met, then test the solution as a whole to ensure it does what is expected.
+  - Release: Publish the project to the public making sure not to send testing data.
+  - Maintenance: When the product is released, you will need to address user complaints and bug reports
+  - Upgrades/Updates: Keeping the software up to date providing upgrades when needed. Circle back through the other phases. 
+
+- Requirements:
+  - Talk to customer/client and what they want.
+  - Ask questions to determine what they actually want.
+  - Make list of those requirements
+  - Show list to client to see if it is what they want.
+  - List of outcomes that the project is set to meet.
+  - Problems that need to be solved.
+  - Job for team is to solve these requirements.
+  - Set objectives and problems needing to be solved.
+  - Establish budgeting
+  - Confirm requirements with client. 
+
+- Design:
+  - Map out potential solutions using diagrams and flowcharts
+  - Use team brainstorming and ideas to create potential solutions
+  - Ensure that the design doesn't create any issues before implementation
+
+- Implementation:
+  - Move design into code solution
+  - Usually longest step
+  - More people work on this step than any other
+
+- Testing:
+  - Could be a separate team solely for testing 
+  - Test happy path
+  - Attempt to break application
+  - Find bugs
+
+- Release:
+  - Program made available to public 
+  - Avoid releasing testing data
+
+- Maintenance:
+  - Fix bugs after release
+  - Small tweaks after getting feedback
+  - Not big changes. Patches
+
+- Updates:
+  - Large changes after release 
+  - Feedback gotten after release for additions
+  - Smaller teams
+  - Repeats previous lifecycle steps
+  - Changes to version of program
