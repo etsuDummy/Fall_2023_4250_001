@@ -1,0 +1,12 @@
+Requirements:
+R-Physics for ball
+R-Mouse detection
+R-Collision for ball with objects
+R-Collision for ball with screen boundaries
+O-Able to handle change in resolutions mid game
+O-Able to handle user unplugging mouse
+O-Able to handle user drawing out of bounds
+O-Able to handle if user draws on top of ball
+O-Works for multiple OS's
+
+O - optional, R - required
