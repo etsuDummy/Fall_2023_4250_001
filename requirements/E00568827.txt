@@ -1,0 +1,12 @@
+Mandatory:
+The ball must bounce off at a predictable angle, use the formulas for angle of incidence
+When the player draws an obstacle, track each pixel that they touch and mark them as solid
+Need to define the width and height of the screen
+Need to define the size of the ball (radius)
+Need to define the speed of the ball (does it speed up?)
+Need to be able to detect when the mouse is drawing (click and drag? just drag?)
+
+Optional:
+The ball will start by moving in a random direction
+When the player draws an obstacle, do not keep it unless it spans more than three pixels. This will make the check for small obstacles unnecessary
+If the ball is ever out of bounds, reset it to the center
