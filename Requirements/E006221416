@@ -1,0 +1,13 @@
+Try to write the requirements for simple arcade style driving game where the player has to navigate around obstacles to keep from crashing.
+Player MUST be able to accelerate.
+Player MUST be able to decelerate.
+Player MUST be able to turn/navigate the car. 
+Obstacles should MUST render in time for the player to be able to have an appropriate response time. 
+Player's score must be kept.
+Player's score must restart when they crash. 
+
+
+Try to write the requirements for a program that bounces a ball off the sides of the screen and any obstacles larger than 3 pixels the user draws with the mouse.
+User must be able to draw on screen.
+The ball must move.
+The user must be able to erase what they have drawn.
