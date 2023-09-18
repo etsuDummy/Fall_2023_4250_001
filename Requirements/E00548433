@@ -1,14 +1,14 @@
 Mandatory:
 1.	Gameplay mechanics:
-a.	The vehicle should move forward automatically.
-b.	The player must control left and right movements using the left and right arrow keys.
+  a.	The vehicle should move forward automatically.
+  b.	The player must control left and right movements using the left and right arrow keys.
 2.	Obstacles:
-a.	The game must include various type of obstacles such as other cars that the player must avoid.
-b.	The game must end when the player collides with an obstacle.
+  a.	The game must include various type of obstacles such as other cars that the player must avoid.
+  b.	The game must end when the player collides with an obstacle.
 3.	Scoring System:
-a.	The game must have a scoring system that will go higher as the player successfully navigates around the obstacles.
+  a.	The game must have a scoring system that will go higher as the player successfully navigates around the obstacles.
 4.	Difficulty levels:
-a.	The game must include difficulty levels that the user can change. For example, easy, medium, and hard.
+  a.	The game must include difficulty levels that the user can change. For example, easy, medium, and hard.
 
 Optional:
 1.	Allow the user to choose between multiple cars.
