@@ -1,0 +1,14 @@
+Requirements:
+	Mandatory:
+•	Program must be capable of displaying a ball that “bounces” around the screen
+•	Ball must be able to detect edges of screen and “bounce” off of them
+•	Program must allow user draw obstacles on screen
+•	Program must identify obstacles on screen drawn by the player greater than 3 pixels in size
+•	Program must be able to have ball react to obstacles drawn by player
+Optional:
+•	Program may allow users to import a background image
+•	Program may allow users to change color of drawing tool
+•	Program may allow users to adjust thickness of drawing tool
+•	Program may contain an undo functions
+•	Program may contain a redo function
+•	Program may allow a user to drop a ball from a certain point on the screen
