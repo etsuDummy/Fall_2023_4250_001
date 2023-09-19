@@ -1,0 +1,6 @@
+The user must be able to start the program.
+The user must be able to quit the program.
+The user must be able to draw obstacles with their mouse.
+The user must be able to clear/erase objects drawn.
+The program must accept mouse input.
+The program must not generate errors.
