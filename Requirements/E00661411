@@ -1,0 +1,30 @@
+Arcade game requirements:
+
+The user must be able to accelerate the car
+The user must be able to slow down the car
+The car should have a minimum speed that is not zero
+The user must be able to steer the car left and right
+The game must have obstacles
+The obstacles can move
+The car must crash if an obstacle is touched
+The game must end if the car crashes
+The game must have a surface for the car to drive on
+The surface can be a road
+The surface must have bounds
+The bounds must cause the car to crash
+The game must allow the user to play again after it ends
+
+The game must be responsive to user input
+The game must respond to user input within 1 second
+
+The game may have a win condition
+The game must end if a win condition is met
+The win condition can be driving through a limited amount of obstacles
+The game may be endless
+The game can have a timer
+The timer can be used to track high scores
+
+The user must not be able to drive in reverse
+The user must not be able to turn around
+The user must not be able to drive off course
+The car must not be able to stop
