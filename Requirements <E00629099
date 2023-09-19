@@ -1,0 +1,35 @@
+Requirements <E00629099
+
+Functional Requirements:
+
+1.	User-Drawn Obstacles:
+•	The program should allow the user to draw obstacles on the screen using the mouse.
+•	Obstacles must be larger than 3 pixels in width and height to be considered for collision detection.
+2.	Bouncing Ball:
+•	A ball should be displayed on the screen.
+•	The ball should move continuously in a specific direction.
+3.	Collision Detection:
+•	The program should detect collisions between the ball and user-drawn obstacles.
+•	Collisions should change the ball's direction and prevent it from passing through obstacles.
+4.	Screen Boundaries:
+•	The program should detect collisions between the ball and the edges of the screen.
+•	Collisions with screen boundaries should reverse the ball's direction.
+5.	User Interaction:
+•	Users should be able to start and stop the simulation.
+•	Users should be able to clear the screen of obstacles and reset the ball's position and velocity.
+User Interface (UI) Requirements:
+1.	Drawing Interface:
+•	Provide a canvas or drawing area where users can draw obstacles.
+•	Include controls for starting and stopping the simulation.
+2.	Ball Visualization:
+•	Display the ball as a visible object on the canvas.
+3.	Obstacle Interaction:
+•	Provide a way for users to interact with obstacles, such as selecting and deleting them.
+4.	Feedback:
+•	Provide visual feedback to indicate when collisions occur (e.g., change the color of colliding objects).
+Performance Requirements:
+1.	Real-time Interaction:
+•	The program should provide real-time responsiveness to user actions, including obstacle drawing and simulation control.
+2.	Smooth Animation:
+•	Ensure that the animation of the ball's movement and collision reactions is smooth and visually pleasing.
+
