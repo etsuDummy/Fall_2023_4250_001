@@ -1,0 +1,18 @@
+•	Homework example
+o	Choice 2, Driving Game
+	The game must have barriers to keep players on the track
+•	Mandatory, Functional
+	The game must have different difficulties
+•	Mandatory, Functional
+	The game could have a respawn function with invincibility for 2 seconds
+•	Optional, Non-Functional
+	The game must track score based on total time survived
+•	Mandatory, Non-functional
+	The game must restart if the player is driving in opposite direction for longer than 5 seconds
+•	Optional, Non-Functional
+	The game must use a joystick to drive
+•	Mandatory, Non-functional
+	The game can have loading screens
+•	Optional, Functional
+	The game can have music
+•	Optional, Functional
