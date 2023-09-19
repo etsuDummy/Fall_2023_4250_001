@@ -1,0 +1,8 @@
+ball bouncing:
+-accurate, angular collision detection
+-draw the ball, walls at the side of the screen, and allow users to draw obstacles using the mouse - mandatory and functional
+-pixel counting to ensure objects are big enough - mandatory and functional
+- do objects have to be drawn with a single stroke, or can they be combined together?      non mandatory and functional
+	- when to recount pixels for combination? non mandatory, functional
+- what size ball, how fast does it move, are obstacles stationary or does the ball push them? non mandatory and functional
+- does the ball have momentum, slowing down and speeding up, or is it constant motion non mandatory and functional
