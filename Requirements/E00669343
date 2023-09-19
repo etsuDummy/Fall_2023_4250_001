@@ -1,0 +1,19 @@
+The game must keep track of score as the user plays. 
+	Score will reset once player crashes.
+	High score will be kept.
+The controls must allow the player to move forward, backward, left, and right. 
+
+The game must get progressively harder the longer the player plays. 
+	Speed of user will get faster as time moves on.
+	User will reach max speed after a fixed amount of
+	time.
+
+The player will only have one life.
+
+Obstacles must be in varying positions like center, right, left of road. 
+	There must always be a path for user to go through. 
+This game must be in third person.
+	The perspective will be from the back of the car.
+User can input name when getting high score.
+	Input validation must be done for this.
+User must be bound to road, cannot drive off of road.  
