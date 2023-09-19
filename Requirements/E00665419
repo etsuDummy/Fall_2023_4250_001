@@ -1,0 +1,40 @@
+Questions:
+straight track or curved?
+what kind of obstacles?
+point system?
+platform (computer, console, mobile, etc.)
+Save data?
+multiplayer ability
+car type matter? choose from selection?
+fixed driving speed or player controlled
+moving or fixed obstacles
+avoid other players?
+timed?
+lives?
+leaderboard, how many letters available
+code language
+game engine
+game barries (when driver goes off track do they have to navigate back or are they teleported back)
+end to track or time limit?
+
+Happy Path:
+Insert correct currency
+select car, track, and difficulty
+game begins
+player avoids all obstacles and stays on track
+points added each obstacle missed
+crosses finish line or runs out of time
+player wins
+player adds name to leaderboard
+play again? No -> goodbye, Yes -> insert currency and start over
+
+Unhappy Paths:
+incorrect currency amount -> error
+runs out of time to select car -> randomly selected
+runs out of time to select track -> random select
+runs out of time to select difficulty -> random select
+player drives off track -> lose time or teleported back 
+player hits obstacle -> points deducted or none rewarded
+runs out of lives -> points displayed, game over.
+runs out of time -> points displayed, game over
+play again -> yes or no
