@@ -1,0 +1,134 @@
+Note: I cannot include all items in order to protect confidential information. Items I consider exceeds have an (E) at the end
+Note: I have both courses (4 sections) setup to follow a consistent pattern for the entire semester. This streamlines my work
+each week while also providing students with stability of what is expected each week. Two points in the semester disrupt this
+routine; the mid term and final essays.
+
+A list of this week’s accomplishments (especially how you exceeded expectations during the week)
+Friday
+    Submitted my official Course plans for SE I and SE II that is due today 
+          I only found out yesterday that I had to do this. Other faculty have had weeks.(E)
+    Resumed (from yesterday) working on providing feedback to SE I status reports ~7:30am, worked till noon
+         - small breaks to help wife with painting porch, deal with animals
+    After lunch, arrived at ETSU ABET mtg 10 minutes early only for it to start 15 minutes late
+    	- helped my team navigate the multiple documents to do ABET mappings
+    	- identified that there was a document missing and asked Dr. Bennett for that document (E)
+    	- meeting went 1 hour over
+    Worked on feedback for a few more hours
+      - marked all the ones that were submitted early to me by students
+      - mall breaks to deal with beaver issue and take care of outside animals
+    Checked emails periodically throughout the evening in case a student needed something time critical (E) (I'm not required to work evenings)
+
+Saturday
+    Finished SE 1 section 2 and section 1 reports (E) (this is an exceeds because I'm not required to work weekends)
+    Started and finished SE II section 2 reports (smaller class size so I do it first) (E)
+    Dealt with beaver issue. Oddly, the beaver left it's collapsible camping shovel on the beaver wall so I took it. (E) (exceeds because I never expected to find a shovel)
+    Checked emails periodically throughout the evening in case a student needed something time critical (E)
+
+Sunday
+    Arrived early to church, setup streaming equipment (overcame mystery power outage on some equipment) (E)
+      - Stayed after to collect and organize donations for our food shelf (weekly activity; my wife coordinates the daily distribution) (E)
+    Had our first bell choir practice session of the season; 4 new pieces
+    Finished SE II section 1 reports (E)
+    Updated my class notes for both SE I and SE II based on the common threads I saw while doing the reports (E)
+    Reviewed the required reading material for SE I and did final edits on my class notes (E)
+    Sent a copy of my SE I class notes to Dr Shaik so she knew what was planned for Monday (E)
+    Various chores around the house and yard
+    Impaled myself on a shard of bamboo while trying to deal with the beaver issue. 
+      - Interestingly, the beaver apparently likes Mountain Dew as it left an empty can of it by the wall.(E)
+    Checked emails periodically throughout the evening in case a student needed something time critical (E)
+
+Monday
+    Rode my bike to work (6 miles each way; takes 20-30 minutes depending on traffic). (E)
+    Arrived early (E) (8ish, my day starts officially at 9), chatted with a former student and a couple of current students
+      - NOTE: I sit at the table outside 215 instead of my office for just that reason. I like to create the opportunity for 
+              "accidental encounters" because I think it makes me more approachable and builds a strong relationship of trust.
+    Starting collection the materials the ABET auditors need for my class. Dr. Dubay is a huge help in this effort.
+    Executed on my class notes for SE I sections 1 and 2; observing student's level of engagement during the exercise.     
+    Kind of skipped lunch again (ate cold cabbage between class sessions), finished the rest after classes ended.
+    Wrecked my bike on the way home due to someone at a 4way stop going out of turn; bruised multiple ribs. A couple of quick 
+               repairs on the bike and I was on my way again. Thankfully, my body to the brunt of the impact and my new laptop was not damaged (E) (unlike last semester)
+    Got home in time to play "Cut Throat Kitchen" with my wife and 5 year old grandson. Somehow I lost every challenge. 
+               I thought for sure my peanut butter and chocolate kiss cookies with tuna fish and chipotle would win.
+    Nothing of interest in the beaver wall today. But they did leave rose bush branches (kind of nature's barbed wire).
+    Checked emails periodically throughout the evening in case a student needed something time critical (E)
+
+Tuesday
+    Drove to work due to bike injury the previous day (takes 15 minutes). Forgot to take pain relievers so I hurt with every breath all day. 
+    Arrived early (E), no students initially so I worked down items on my todo list 
+      - updates for a few status report feedbacks in SE I; 
+      - post the instructions for persuasive essay; 
+      - verified due date to ensure I have time to read them before submitting grades; 
+      - start drafting this report; 
+      - Reviewed the required reading material for SE II and did final edits on my class notes
+    Once caught up on class stuff, I worked on my ABET assignment and was able to compose all the materials requested and placed them in 
+              the appropriate folders (E)(this was due this coming Friday). 
+      - Since it was early, I asked Dr. Dubay to look over my work and let me know if she sees anything missing or wrong. (E)
+      - I also updated Dr. Bennett (my boss) that it was done and include a compliment about Dr. Dubay for her assistance.(E)
+    Helped another professor that was trying to put their ABET materials together. (E)
+    Met with a couple of students from SE I and SE II to answer questions about the course and/or their performance.
+    Executed on my class notes for SE II sections 1 and 2; observing student's level of engagement during their execution of the Scrum Project during class. 
+    Processes attendance for SE I section 1 and 2
+    Reviewed the required reading for Design and some of the optional ones, then updated my class notes, posted documents to GitHub 
+              so both SE I sections had the info (early if they were looking). 
+    Sent my updated class notes to Dr. Shaik so she knew the plan for Wednesday.(E)
+    Drove home, did yard stuff, mostly rested my ribs, forgot to take pain meds until bedtime. 
+    Nothing interesting in the Beaver wall.
+    Checked emails periodically throughout the evening in case a student needed something time critical(E)
+
+
+Wednesday
+    Drove to work again, still in pain from the bike wreck.
+    Arrived early (E), knocked out some emails and did all my pull requests across the 4 sections
+    Scanned the requirements documents and processed attendance. Sent emails about missing/misplaced files.
+    Met with a couple of students about topiz quizzes in between prepping for the class sessions for today.
+    Got another assignment today that due Friday from Dr. Bennett. Knocked it out.(E)
+    Found out about an AI workshop that might be of interest to students so I posted that after getting permission from the coordinator. (E)
+    Scanned through a video a student sent. Showed it in class. Updated my class notes to use that video in the future (I like it when this happens).
+    After watching the students in class today, I made a note to relook at the design exercise instructions. Maybe I can simply them or clarify them (or both) for future semesters.
+    Scanned over SE II material for tomorrow.
+    Scanned over SE I material slated for Monday. 
+    Chatted with a few students after class about topic quizzes and nothing class related.
+    Stopped at church on the way home to fix the food pantry doors (people complained on Sunday they were coming loose). 
+            It's not strictly my job (I didn't build it) but I can do it and so I did. (E)
+      - Also picked up the large canopy tent we loaned to them (bad idea, hurt my ribs again putting it in the truck).
+    Usual beaver reduction work. This time I found a plastic planter bucket in the wall. 
+      - I think they were using that since I stole their shovel. So I stole the bucket too. (E)
+    My wife made stew and homemade bread for the neighbors that just had a baby this week. I helped test everything before taking it over (she made enough for us too). 
+    Daughter's out of town so we hosted the son-in-law and grandson for dinner.
+    Checked emails periodically throughout the evening in case a student needed something time critical (E)
+
+Thursday
+    Surprise, drove to school again. That canopy mistake is not helping speed up my recovery.
+    Arrived early (E) to find two students diligently working outside 215. They seemed in a good mood so I assumed it wasn't SE work.
+    Reviewed materials for SE II today and updated my notes.
+    Process pull requests and attendance.
+    Start working on feedback as some progress reports are coming in. 
+    I visited the facilities coordinator for Brinkley Center to let them know there has been no paper towels in the mens room for 3 weeks. 
+          This morning there was no soap. I offered to keep them stocked if they gave me a key to the janitor's closet. They said that's okay.  (E)
+          They will have someone fix it asap and look into why it wasn't getting done. 
+          They asked me to keep them updated over the next few days to ensure it is getting done.
+          Hundreds of people use that restroom. Why am I the only one to say anything? 
+    Snuck into career readiness to watch a former student of mine give a presentation on their internship experiences. (E)
+    Scanned over the design materials submitted. Captured a few notes to bring up on monday.
+    Helped with some first aid for a student from another class that had a minor cut. (E)
+    Answered student questions about Scrum and other topics
+    Taught the SE II sections
+    Turned this report in early.
+
+
+A list of obstacles that prevented you from accomplishing anything you had planned to do
+    I don't seem to be on all the distribution lists for the department so I'm finding out about stuff 2nd hand
+        Mitigation: I've reached out to a couple of people I think can get me on lists. Continue getting info 2nd hand for now.
+    ABET audit coming up on 10/2 where I get interviewed by the auditors (solo). Because my class covers all concentrations, I've been told to expect to be grilled.
+        Mitigation: Play the "new guy" card. "I don't know. I just officially started Aug 1." Technically accurate. I have only been a Professor of Practice since Aug 1.
+    Look for ways to reduce the oncoming rush: Oct 2 is the due date for all essays across 4 sections (80+ students) and for presentations from all SE II students.
+        Miigation: process any early ones asap to reduce the load. Process any late submissions last. Is there a better way?
+
+A list of tasks you plan to do next week
+    For Monday SE I classes, bring old laptop so I can demo some apps I wrote years ago and show the comments as an example
+    Continue pattern of delivering classes, observing, updating notes for changes to curriculum or to next class session notes.
+    Continue to process reports as quickly as possible while giving robust feedback.
+    Explore idea of attending teaching symposium two weeks from now. I have obligations that morning so is it worth going to half a day?
+    Check with Dr. Dubay to see if there is anything I need to follow up on for the submissions from this week for ABET.
+    Deal with Beaver issue every day. Think of a plan to eliminate the problem for good (although I'm learning to enjoy the daily routine)
+
