@@ -1,0 +1,50 @@
+# in class exercise by Jacob Manis and Isaac Simmons
+whole_number = 0;
+whole_number_str = "";
+least_sig = 0;
+least_sig_str = "";
+
+
+def parse_to_string(number):
+    """
+    simple function to take integer and return string of that int
+    :param number:
+    :return: str(number)
+    """
+    return str(number)
+
+
+def break_number(strNumber):
+    """
+    input string version of integer
+    break last char off of string and cast both new strings as integers
+    add integers together
+    recursively call the same function until the input string corresponds to single digit integer
+    :param strNumber:
+    :return: break_number(str(whole_number)) or nothing
+    """
+    if len(strNumber) > 1:
+        least_sig_str = strNumber[len(strNumber) - 1]
+        whole_number_str = strNumber[:-1]
+
+        whole_number = int(whole_number_str) + int(least_sig_str)
+        print("whole number: " + whole_number_str + " lease significant number: " + least_sig_str)
+    else:
+
+        print("final " + strNumber)
+        return ("end program") # fix return?
+    return break_number(str(whole_number))
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    # need to validate inputs to ensure inputs are positive integers
+    user_number_1 = input('Please enter the first positive integer:')
+    user_number_2 = input('Please enter the second positive integer:')
+
+    whole_number = int(user_number_1) + int(user_number_2)
+
+    whole_number_str = parse_to_string(whole_number)
+
+    print(break_number(whole_number_str))
+
