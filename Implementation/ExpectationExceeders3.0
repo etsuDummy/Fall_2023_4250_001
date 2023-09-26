@@ -1,0 +1,65 @@
+/*
+ * Noah Horner, Austin Mahala
+ * 
+ * Recursion (Method must call itself)
+            // Take two integers from user
+            // Add the two numbers together
+            // Separate the least significant digit (in the number 423 it is 3)
+            // Add the least significant digit to the remaining digits until there is a single digit remaining (42 + 3 = 45 -> 5 + 4 = 9)
+*/
+
+namespace SuperDigit
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            SuperDigit();
+        }
+
+        public static int SuperDigit()
+        {
+            int firstNum;
+            int secondNum;
+            int result;
+            int superDigit;
+            
+
+            Console.Write("Enter the first number: ");
+            firstNum = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter the second number: ");
+            secondNum = int.Parse(Console.ReadLine());
+
+            result = firstNum + secondNum;
+
+            Console.WriteLine();
+            Console.WriteLine($"{firstNum} + {secondNum} = {result}");
+
+            result.ToString();
+            char[] resultDigitArray = new char[result.ToString().Length];
+
+            // We ran out of time, but this is how we planned to finish this activity
+
+            // Set each character of the array equal to each character of the result string
+
+            // Take last element of the array and set to it's own variable
+
+            // Convert that least significant digit (LSD) into a string
+
+            // Parse that sting into an int
+
+            // Take the other remaining digits out of the array
+
+            // ToString those remaining digits
+
+            // Parse the digits that were converted to a string to an int
+
+            // Create a new variable that holds the remaining digits minus the LSD
+
+            // Add that variable to the existing characters in the array
+
+            // Method calls itself until process is complete
+        }
+    }
+}
