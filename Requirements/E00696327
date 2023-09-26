@@ -1,6 +1,8 @@
 Requirements:
 	- Game must be for mobile devices only (android/apple)
-	- Game must accept proper input
+	- Game must accept proper input from the user 
+		(touching the screen on the left or right side must make the car move to the left or the right depending on where the user wants to move)
+		So if the user wants to move to the right, they must touch the right side of the screen. If the user wants to move to the left, they must touch the left side of the screen
 	- Game must have graphical interface
 	- Player must be able to slow down
 	- Player must be able to speed up
@@ -11,6 +13,7 @@ Requirements:
 	- Game must track the number of obstacles avoided
 	- Game must have option for first person or third person POV
 	- Game must have boundaries the vehicle cannot cross (Left and Right)
-	- Game must randomly populate obstacles without making it impossible to pass
+	- Game must randomly populate obstacles
+	- Game must populate obstacles that are not impossible to pass
 	- Must have tutorial upon opening the game initially
 	- Must have option to take tutorial again in the main menu
