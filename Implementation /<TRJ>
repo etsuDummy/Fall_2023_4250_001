@@ -1,0 +1,35 @@
+Implementation / <TRJ>
+Jivan Taj, Ryan Quillen, Joshua Pearman
+
+//Vars 
+// init user inouts 
+int kb = 0; 
+int input1 = 0; 
+int input2 = 0;
+int result = 0; 
+
+//collecting user input 
+Console.WriteLine("input your first positive int: ");
+input1 = int.Parse(Console.ReadLine());
+//needs validation
+Console.WriteLine("input your second positive int: ");
+input2 = int.Parse(Console.ReadLine());
+//needs validation
+
+//calculating result 
+result = input1 + input2;
+
+char[] resultArray = result.ToString().ToCharArray();
+//Reference: https://www.physicsforums.com/threads/converting-integer-into-array-of-single-digits-in-c.558588/
+
+foreach (char i in resultArray)
+{
+    Console.WriteLine(i);
+}
+• Take two user inputs 
+• Validate they are whole numbers
+• Add user inputs
+• 1000+5=1005
+• Turn 1005 into an ex array 1,0,0,5
+• Take last number and subtract it from the remain combined not added numbers
+• Enter loop repeat above array to calculator until the array only outputs 1 number
