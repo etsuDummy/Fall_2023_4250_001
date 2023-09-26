@@ -1,0 +1,167 @@
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+
+/*
+Name: Shealy Cohan
+Date: 09/25/2023
+Last Edited: 09/26/2023
+Naming conventions: Camel Case
+Sources: ChatGPT & StackOverflow (For color coding)
+Source URL: https://chat.openai.com/share/1fc837a6-1169-4b39-9f9d-0e7e11f9c7dc
+*           https://stackoverflow.com/questions/2743260/is-it-possible-to-write-to-the-console-in-colour-in-net
+*/
+
+/*
+ * Description:
+ * Takes two user inputs, one integer and one string.
+ * Adds each digit in the user's integer together recursively until only one digit remains.
+ * It then takes the user's string and returns the number occurances of each character in the ASCII set.
+ * It then prints the number of ASCII characters not present in the string.
+ * Lastly, it prints the string in reverse.
+ */
+
+
+namespace InClassPractice09252023
+{
+    class Program
+    {
+        /*
+         * Color Coded Outputs:
+         * 
+         * Input Prompts - Green
+         * User Input - White
+         * Computer Output Description - Blue
+         * Computer Output Value - White
+         * Error Message - Red
+         */
+
+        static int addRecursively(int num)
+        {
+            //Check if num is less than 10
+            //If less than 10, num is already single digit
+            if(num < 10)
+            {
+                //Return because already single digit
+                return num;
+            }
+
+            //This loop will add the digits up and return the new sum
+            int sum = 0;
+            while(num > 0)
+            {
+                //Get least significant digit or remainder when divided by 10
+                //Add to the sum 
+                sum += num % 10;
+                //Remove least sig digit by dividing by 10
+                num /= 10;
+            }
+
+            //Repeatedly call AddRecursively, passing in the new sum each time
+            //Continues until it passes as a signle digit number
+            return addRecursively(sum);
+        }
+        static void Main(string[] args)
+        {
+
+            //While loop to check for valid integer
+            //If not an integer, it will loop and continue to ask until valid input has been entered
+            int inputNum;
+            while(true)
+            {
+                //Take input from a user
+                //I also added the color green to the prompts to help them stand out
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write("Please enter a number: ");
+                Console.ResetColor();
+
+                if (int.TryParse(Console.ReadLine(), out inputNum))
+                {
+                    //Call AddRecursively as pass in the user's input value
+                    int result = addRecursively(inputNum);
+                    //Return the result once AddRecursively completes
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.Write("The following is your single digit result: ");
+                    Console.ResetColor();
+                    Console.WriteLine(result);
+                    //This will exit the loop because a valid integer was entered
+                    break;
+                }
+                else
+                {
+                    //Error message for invalid input
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("You entered an invalid input. Please try again with a valid integer.");
+                    Console.ResetColor();
+                }
+
+            }
+
+            //Taking the ASCII string and evaluating it
+            //Start by taking input from the user
+            Console.ForegroundColor= ConsoleColor.Green;
+            Console.Write("Please enter a string: ");
+            Console.ResetColor();
+            string input = Console.ReadLine();
+
+            //Create a dictionary to hold the character counts for that input string
+            Dictionary<char, int> charCount = new Dictionary<char, int>();
+
+            //For each of the characters in the input, add to the dictionary if not already in it
+            //Iterate through each character until each one has been added
+            //Increase to counter in order to increment through each character
+            foreach (char c in input)
+            {
+                if (charCount.ContainsKey(c))
+                {
+                    charCount[c]++;
+                }
+                else
+                {
+                    charCount[c] = 1;
+                }
+            }
+
+            //Return the count of each character in the string
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Character counts: ");
+            Console.ResetColor();
+
+            foreach (var pair in charCount.OrderBy(p => p.Key))
+            {
+                Console.WriteLine($"{pair.Key}: {pair.Value}");
+            }
+
+            //Check for characters in the ASCII set which is 0 to 127
+            //Check for any ASCII characters that are not present in the user's string
+            int MissingCount = 0;
+            for (int i = 0; i < 123; i++)
+            {
+                char c = (char)i;
+                if (!charCount.ContainsKey(c))
+                {
+                    MissingCount++;
+                }
+            }
+
+            //Print out the number of ASCII characters that were undetected
+            Console.ForegroundColor=ConsoleColor.Blue;
+            Console.Write("Characters in the ASCII set that were not detected: ");
+            Console.ResetColor();
+            Console.WriteLine(MissingCount);
+
+
+            //Reversing the string and priting to screen
+            //Convert to a character array, reverse the character order, and print
+            char[] charArray = input.ToCharArray();
+            Array.Reverse(charArray);
+            string reversed = new string(charArray);
+
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write("Reversed string: ");
+            Console.ResetColor();
+            Console.WriteLine(reversed);
+        }
+    }
+}
