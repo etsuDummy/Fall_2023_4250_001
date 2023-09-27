@@ -1,0 +1,32 @@
+namespace LastDigitRecursion
+{
+    /* This program takes an inputed integer from the user in the console and strips the last digit, adds the striped
+     * digit to the left over digit(s), saves the sum, and repearts until there is one digit remaining
+     */
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter an integer: ");
+            if (int.TryParse(Console.ReadLine(), out int number)) //Checks if the input is an integer. If it is, the "out" parameter will save the inputed integer in the variable 'number'
+            {
+                int originalNumber = number;                      //Sets the accepted number to a stored variable for recursion and also allows for the last WriteLine statements to display the original input along with the final result
+
+                while (number >= 10)
+                {
+                    int leastSignificantDigit = number % 10;      //Mod operator to grab the remainder i.e. last digit
+                    number /= 10;                                 //Divides the input by 10 to obtain the integer without the last digit
+                    number += leastSignificantDigit;              //Adds the striped digit back to the new integer
+
+                    Console.WriteLine($"Current number: {number}");
+                }
+
+                Console.WriteLine($"The final single-digit result of {originalNumber} is: {number}"); //If the number is less than 10, it will jsut display the input since it is a single digit
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter a valid integer.");
+            }
+        }
+    }
+}
