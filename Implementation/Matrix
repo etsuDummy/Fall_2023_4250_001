@@ -1,0 +1,46 @@
+Assignment: Recursion Implementation Exercise
+Team Name: Matrix
+Members: Christopher Presnell & Logan Turbyfill
+
+
+
+Clarification Questions:
+
+1) What is the max / min values the user can enter.
+2) what type of numbers are allowed? Int, float, ect.
+3)Psudo code in text file or visual studio file.
+4)How should the psudo code be structured? One line or is bullet points okay with clarifying sub-points.
+
+Pseudo Code Implementation:
+
+User Input variable initialized;
+Integer variable initialized;
+second Integer variable initialized;
+Result variable initaialized;
+
+Write to screen to prompt user for an integer.
+
+Read user input;
+	Try:
+		Parse user input to verify input is Integer.
+
+	Catch:
+		Promt user to re-enter input, last attemp wasn't an integer.
+
+Store user input in Integer variable;
+
+
+		 
+
+Recursion Method:
+
+For
+ 	(int i = User Integer, i <= 1; i--)
+		
+		user Integer mod Integer of 10 to get last digit off number.
+    User integer - second integer variable = result
+
+End For
+
+print result.
+

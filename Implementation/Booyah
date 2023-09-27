@@ -1,0 +1,60 @@
+Sydnie and Thomas 
+
+Requirements: 
+Take two numbers in from user and add them together
+Math addition (no concatenate)
+Validate input is ints
+Seperate the least sig. digit
+Add seperated digit to the reaiming digits
+Go until you have a single digit
+Output answer
+Steps are not required to be shown
+
+Design: 
+Take two int inputs and add them together to get bigNum
+Confirm they are ints before adding them together
+To get the least significant digit, do mod 10 on bigNum
+Divide the int bigNum by 10 to get the int without the least sig. digit
+Add least sig. digit to the int just calculated by division
+Recursively call ( mod / div / add ) until num mod 10 is equal to itself (meaning it is only one digit)
+Print the last int.
+
+Code (at the end of class):
+using System;
+using System.Globalization;
+using System.Net.Http.Headers;
+namespace Math
+{
+ public class Program
+ {
+ static void Main(string[] args)
+ {
+ Console.WriteLine("What is your first integer?");
+ int
+ }
+ //this method will take the user's input and confirm that they gave us and
+integer
+ // if they didn't it will return the int 0
+ public int validateInput(string input)
+ {
+ int validated = 0;
+ bool success = int.TryParse(input, out validated);
+ return validated;
+ }
+ //recursive method that takes in the number to recursively add the least
+significant number to itself, once you've removed the least significant number
+ public int recursiveMethod(int bigNum)
+ {
+ //this makes sure we aren't done. It will exit if the int is a single
+digit
+ if(bigNum == bigNum % 10)
+ {
+ return bigNum;
+ }
+ else
+ {
+ }
+
+ }
+ }
+}

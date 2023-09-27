@@ -1,0 +1,63 @@
+using System;
+
+namespace RecursiveDigitSum
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            while (true)  // Infinite loop to keep the program running until user decides to quit
+            {
+                int invalidInputCount = 0;
+                while (invalidInputCount < 3)  // Loop to handle invalid input up to 3 times
+                {
+                    Console.WriteLine("Enter the first positive interger or (q) to quit: ");
+                    string num1Str = Console.ReadLine();
+                    if (num1Str.ToLower() == "q")
+                        return;  // Exit the program if user enters 'q'
+
+                    Console.WriteLine("Enter the second positive interger or (q) to quit: ");
+                    string num2Str = Console.ReadLine();
+                    if (num2Str.ToLower() == "q")
+                        return;  // Exit the program if user enters 'q'
+
+                    try
+                    {
+                        int num1 = int.Parse(num1Str);
+                        int num2 = int.Parse(num2Str);
+                        int sum = num1 + num2;
+                        int result = RecursiveDigitSum(sum);
+                        Console.WriteLine($"The result is: {result}\n");
+                        break;  // Break out of the invalid input loop if input is valid
+                    }
+                    catch (FormatException ex)
+                    {
+                        invalidInputCount++;
+                        Console.WriteLine($"Invalid input. Attempts remaining: {3 - invalidInputCount}\n");
+                    }
+                }
+
+                if (invalidInputCount >= 3)
+                {
+                    Console.WriteLine("Too many invalid attempts. Exiting the program.");
+                    return;  // Exit the program if invalid input entered 3 times
+                }
+            }
+        }
+
+        static int RecursiveDigitSum(int number)
+        {
+            if (number < 10)  // Base case: if the number is a single digit, return it
+            {
+                return number;
+            }
+
+            int leastSignificantDigit = number % 10;  // Obtain the least significant digit
+            int remainingDigits = number / 10;  // Obtain the remaining digits
+
+            int newNumber = remainingDigits + leastSignificantDigit;  // Add them together
+
+            return RecursiveDigitSum(newNumber);  // Recursive call
+        }
+    }
+}

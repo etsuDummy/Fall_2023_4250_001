@@ -1,0 +1,40 @@
+/* Grant Scutt and Patrick Vergason
+ * 25 September 2023
+ * Software Engineering 1 - Implementation
+ * Doing the first project, with the numbers!
+ */
+using System;
+
+static void main (string[] args) {
+     int userInput1, userInput2, sum;
+
+    userInput1 = num();
+    userInput2 = num();
+
+    sum = userInput1 + userInput2;
+
+
+
+}
+
+int num() {
+    Console.WriteLine("Please enter a number of any length...")
+    try {
+        Console.ReadLine(userInput1);
+    } catch (Exception e) {
+        Console.WriteLine("Input is not a number! " + e);
+        Console.WriteLine();
+        num();
+    }
+}
+
+// TODO: FINISH METHOD AND ADD RECURSION
+int recursion ( int sum )
+{
+    sumString = sum.ToString();
+
+    int lastNum =  sumString[sumString.length]
+}
+
+
+
