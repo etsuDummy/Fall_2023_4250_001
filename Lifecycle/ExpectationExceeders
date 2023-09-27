@@ -14,28 +14,26 @@ Activity One Results:
 
 Requirements:
  - Determining the required functionality of the final product by asking the customer clarifying questions.
- - Mandatory vs optional. (Example: Code language)
- - Functional and non-functional.
+ - Mandatory vs optional.
+ - Functional and non-functional (Example: Code language).
  - Document in SRS (Software Requirements Specification).
+ - Numbering Requirements.
+ - Division of requirements into smaller tasks.
 
 Design:
- - Creating flow charts fpr high level design.
- - Numbering Requirement.
+ - Creating flow charts for high level design.
  - Documenting how to satisfy requirements.
  - Using pseudocode/UML for low level design.
  - Requirements traceability matrix.
- - Division of requirements into smaller tasks.
 
 Implementation:
  - Self-documented code with detailed notes based on the UML, flow charts, and pseudocode.
  - Update all documents as the program creation progresses.
  - Requirement traceability matrix post condition.
+ - Checking for bugs and ensuring the code runs efficiently and as expected.
 
 Testing:
- - Checking for unpredicted bugs and ensuring the code runs efficiently and as expected.
- - Multiple high level design support systems for a single solution.
- - Test documents are broken down into individual test cases and captured in multiple documents.
- - Testing for each document.
+ - Testing for each SRS document.
  - Creating solutions for the test cases.
  - RTM on the test cases.
  - Documenting the test results.
