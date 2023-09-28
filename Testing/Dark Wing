@@ -1,0 +1,38 @@
+Team Name: Dark Wing
+
+
+Logan Turbyfill 
+Shealy Cohan
+Christopher Presnell
+
+
+Precondition 
+Action 
+Postcondition 
+ 
+The solution must support missiles launched by the user. 
+Pre: Game is running. Action: Fire missile with right mouse button click. Post: Ensure that the missile fires upon button click. (Meets 1.a.) 
+Pre: Game is running. Action: Fire missile with space bar. Post: Ensure that the missile fires upon button click. (Meets 1.b.)  
+Pre: Game is running. Action: Hit three keys at random on the keyboard. Post: Ensure no missiles fired upon these button clicks. (Meets 1.a. and 1.b.) 
+Pre: Fire five missiles onto the screen at once. Action: Watch missile speeds. Fire one extra to make six missiles total. Post: Ensure that only five missiles are on screen at one time, despite firing a sixth. Ensure they are moving at the same speed. (Meets 1.c. and 1.e.) 
+Pre: Fire a missile with either the right button or space bar. Action: Observe behavior of missiles. Post: Ensure that the missile fires at the bottom of the screen and is removed when leaving the screen. It must also fire vertically in one direction. (Meets 1.d., 1.f., and 1.g.)
+Pre: Have a ship on screen and fire a missile. Action: Observe missile behavior when colliding with a ship. Post: Ensure missile detects this as a hit, displays an explosion, and disappears after collision. (Meets 1.h., 1.i. And 1.j.)
+Pre: Proper missile behavior must be verified prior for collision with ships (See 1.e. Of test cases). Action: Fire missile at a ship and observe counter. Post: Ensure that counter increases with each successful hit. (Meets 1.k.)
+
+The solution must support ships launched by the solution 
+Pre:  Ship launched onto screen when no active ships. Action: Start the game, with no ships. See if the game launches a ship. Post: Check to see if the game launched a ship when there were no active ships at game start. (Meets 2.a)
+Pre: Ships are launched onto the screen. Action: Configure ship values Post: Check to see if multiple types of ships appear on screen. (Meets 2.b)
+Pre: Active ship displays appropriate image for the ship.  Action: Start game and observe the image of the active ship. Post: Check and see if the ship image of the active ship matches design documents. (Meets 2.c)
+
+
+Pre: Solution randomly chooses the available ship type when launch initiated. With equal chances of all types to be selected. Action: Launch a number of ships until all types have appeared, and compare how many times each type appeared. Post: Ensure they are equally represented when a ship launches.
+Pre: Verfiy that ships are launched successfully (See 2.a. Of test cases). Action: Observe ships as they appear on screen and count the number of ships active at a time. Post: Ensure that no more than 10 ships appear on screen at a time. (Meets D.2)
+Pre: Ships are launched successfully. Action: Launch 5 ships and watch as they appear. Post: Verify that all ships launched are randomly placed along the left side or the right side of the screen. (Meets 2.d.iii and 2.d.iii.1)
+Pre: No ships are launched. Action: Launch 5 ships and Observe ships as they are appearing. Post: Ensure that ships are launching from a randomly chosen row in the top two-thirds of the screen. (Meets 2.d.iii.2)
+Pre: Ships of varying types are launching successfully. Action: Observe ship behavior. Post: Ensure that each type of ship moves at their assigned speeds. (Meets 2.d.iii.3)
+Pre: System assigns correct direction of the ship depending on which side of screen it’s launched from. Action: Have the system launch a ship from each side of the screen, observe the direction of the ship's path. Post: Ensure that the path of the ship follows the correct direction depending on which side of the screen it came from, according to the design. (Meets 2.D.iii.4)
+		E. Pre: Game makes ships non-active when the ship goes off the screen. Action: Launch the ship and observe the ship going off the screen. Post: Ensure the game made the ship non-active when the ship went off the screen. (Meets 2.E) 
+3. Pre: Ensure counter is working and incrementing correctly (See 1.f. Of test cases). Action: Fire missile and hit 10 ships. Post: Ensure that the game ends when the counter reaches 10 (Meets 3).
+4. Pre: Have the game running. Action: click the left mouse button. Post: Ensure that game ends upon button click (Meets 4).
+5. Pre: Have the game running. Action: hit the esc key. Post: Ensure that game ends upon button click (Meets 5).
+6. Pre: Have the game running and a timer in the background. Action: Do not give any user input. Post: After 5 minutes, ensure that the game ends (Meets 6).
