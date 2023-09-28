@@ -1,0 +1,125 @@
+Daniel Tucker
+Issac Simmons
+Adam Haun
+
+Missile System:
+Missile Launch via Right Mouse Click (Requirement 1a):
+Precondition: Game is active and the player is ready to launch a missile.
+Action: Player clicks the right mouse button.
+Post Condition: A missile is launched from the specified launch position.
+Missile Launch via Space Bar (Requirement 1b):
+Precondition: Game is active and the player is ready to launch a missile.
+Action: Player presses the space bar.
+Post Condition: A missile is launched from the specified launch position.
+Active Missile Limit (Requirement 1c):
+Precondition: 4 missiles are already active on the screen.
+Action: Player launches 2 more missiles.
+Post Condition: Only 1 new missile is launched, making the total active missiles 5.
+Missile Removal Post Screen Exit (Requirement 1d):
+Precondition: Missile is moving towards the top of the screen.
+Action: Missile exits the screen.
+Post Condition: Missile is removed from being active.
+Missile Speed Consistency (Requirement 1e):
+Precondition: Multiple missiles are launched.
+Action: Observe missile speeds.
+Post Condition: All missiles maintain a constant speed.
+Missile Launch Position (Requirement  1f):
+Precondition: Game is active.
+Action: Player initiates a missile launch.
+Post Condition: Missile is launched from the center of the bottom of the screen.
+Missile Direction (Requirement 1g):
+Precondition: Player initiates a missile launch.
+Action: Observe missile direction.
+Post Condition: Missile moves vertically straight up from the launched position.
+Missile Hits Ship Detection (Requirement 1h):
+Precondition: Missile is in motion and a ship is on its trajectory.
+Action: Missile reaches the ship’s position.
+Post Condition: The game detects a hit and reacts accordingly.
+Explosion Display (Requirement 1i):
+Precondition: Missile hits a ship.
+Action: Observe the point of impact.
+Post Condition: An explosion is displayed at the point where missile hits the ship.
+Missile and Ship Removal (Requirement 1j):
+Precondition: Missile hits a ship.
+Action: Observe the screen.
+Post Condition: Both missile and ship are removed from the screen.
+Hit Count Maintenance (Requirement 1k):
+Precondition: Some missiles have hit ships.
+Action: Observe the hit count.
+Post Condition: Hit count is accurate.
+
+
+Ship System:
+Ship Launch on No Active Ships (Requirement 2a):
+Precondition: No active ships on screen.
+Action: System checks for active ships.
+Post Condition: A ship is launched by the system.
+
+Support for Multiple Ship Types (Requirement 2b):
+Precondition: Game is active and ready to launch ships.
+Action: System launches ships based on configurable value.
+Post Condition: Multiple types of ships are launched and displayed.
+
+Display Appropriate Ship Image (Requirement 2c):
+Precondition: Ship is launched by the system.
+Action: Observe the image of the launched ship.
+Post Condition: The image displayed corresponds to the type of the ship.
+
+Random Ship Launch (Requirement 2d):
+Precondition: Game is active and ready to launch ships.
+Action: System attempts to launch ships at different intervals.
+Post Condition: Ships are randomly launched based on a configurable rate.
+
+Random Ship Type Selection (Requirement 2di):
+Precondition: Game is active and ready to launch ships.
+Action: System launches a ship.
+Post Condition: Random type of ship are equally selected and launched.
+
+Active Ship Limit (Requirement 2dii):
+Precondition: 10 ships are already active on the screen.
+Action: System attempts to launch 1 more ships.
+Post Condition: No ship is launched.
+
+Random Ship Launch Location (Requirement 2diii):
+Precondition: Game is active and ready to launch ships.
+Action: System launches a ship.
+Post Condition: Ship is launched from a random location.
+Random Ship Launch Location Side (Requirement 2diii1):
+Precondition: Game is trying to launch ship.
+Action: System picks a side to launch from.
+Post Condition: The ship is launched from the side that was picked.
+Random Ship Launch Location Vertical (Requirement 2diii2):
+Precondition: Game is trying to launch ship.
+Action: System picks a random position from the top third of the row to launch.
+Post Condition: The ship is launched from the vertical position chosen.
+Random Ship Speed (Requirement 2diii3):
+Precondition: Game is launching a particular type of ship.
+Action: Game matches the speed of the ship to the type of ship.
+Post Condition: The ship launched matches the speed it’s supposed to have.
+Ship Direction (Requirement 2diii4):
+Precondition: Game is trying to launch a ship from a side.
+Action: The game applies a speed that is opposite from the side being launched 
+Postcondition Ship is launched traveling the correct direction.
+Ship Removal (Requirement 2e)
+Precondition: A ship has gone off screen.
+Action: The system removes the ship that went off screen.
+Post Condition: The ship is no longer in the system.
+
+
+Game End Conditions:
+Game End on Hit Count of 10 (Requirement 3):
+Precondition: Hit count is at 9.
+Action: Player hits one more ship.
+Post Condition: Game ends due to hit count reaching 10.
+Game end on left mouse button click (Requirement 4):
+Precondition: Game is active
+Action: The player clicks the left mouse button
+Post Condition: Game ends due to the left mouse button being clicked.
+ Game end on escape button pressed (Requirement 5):
+Precondition: Game is active
+Action: The player presses escape button
+Post Condition: Game ends when the user clicks the escape button.
+Game ends after 5 minutes of no missile being launched (Requirement 6):
+Precondition: 4 minutes has elapsed without a missile launch
+Action: 1 more minute passes without a missile launch
+Post Condition: Game ends due to no missile being launched in the last 5 minutes.
