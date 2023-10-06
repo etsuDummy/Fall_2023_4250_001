@@ -1,0 +1,61 @@
+1. Positive integers input for both prompts
+Precondition: user is prompted and input is awaited
+Action: A positive integer is input
+Postcondition: The program runs until a final single digit number is displayed
+
+2. Negative integer is input
+Precondition: user is prompted and input is awaited
+Action: A negative integer is input
+Postcondition: An error message is output and the user is reprompted to re-enter the number
+
+3. A decimal number is input
+Precondition: user is prompted and input is awaited
+Action: A decimal number is input
+Postcondition: An error message is output and the user is reprompted to re-enter the number
+
+4. A non number is input
+Precondition: user is prompted and input is awaited
+Action: A non number is input
+Postcondition: An error message is output and the user is reprompted to re-enter the number
+
+5. The user presses the enter button without entering anything
+Precondition: user is prompted and input is awaited
+Action: Nothing is input and enter is pressed
+Postcondition: An error message is output and the user is reprompted to re-enter the number
+
+6. A correct input is inputted for the first number but a negative number is entered for the second
+Precondition: A correct input has been entered and the user is prompted for the second input
+Action: A negative integer is input
+Postcondition: An error message is output and the user is reprompted to re-enter the number
+
+7. A correct input is inputted for the first number but a decimal number is entered for the second
+Precondition: A correct input has been entered and the user is prompted for the second input
+Action: A decimal number is input
+Postcondition: An error message is output and the user is reprompted to re-enter the number
+
+8. A correct input is inputted for the first number but a non number is entered for the second
+Precondition: A correct input has been entered and the user is prompted for the second input
+Action: A non number is input
+Postcondition: An error message is output and the user is reprompted to re-enter the number
+
+9. A correct input is inputted for the first number but only enter is pressed for the second
+Precondition: A correct input has been entered and the user is prompted for the second input
+Action: enter key is pressed
+Postcondition: An error message is output and the user is reprompted to re-enter the number
+
+10. Both inputs add up to a single digit number
+Precondition: The user is prompted to enter the positive integers
+Action: The user enters two single digit numbers that add up to a single digit number
+Postcondition: That sum of the two numbers entered is returned as the final number
+
+11. Inputs add up to a number with more than one digit
+Precondition: The user is prompted to enter the positive integers
+Action: The user enters two numbers that add up to a number with greater than one digit
+Postcondition: the number is split and it's LSD is added to its remaining most significant digits,
+this is repeated through recursion until a single digit number is presented as the final number
+
+12. Incorrect inputs then correct inputs
+Precondition: The user is prompted to enter the positive integers
+Action: The user enters Incorrect inputs, then enters correct inputs
+Postcondition: The program runs and splits the correct input numbers and recurses until a single digit number is presented
+as the final number.
