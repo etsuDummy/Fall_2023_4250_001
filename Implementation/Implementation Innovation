@@ -1,3 +1,5 @@
+// This is a C# program designed to ask the user for 2 positive intergers and then perform recursion on them and display the answer. 
+// It employs a loop that continues to run until the user either inputs (q) to quit or enters invalid entry more than 3 times.
 using System;
 
 namespace RecursiveDigitSum

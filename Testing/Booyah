@@ -1,0 +1,210 @@
+Thomas And Sydnie
+Kinser Test Day Submit to Testing/Booyah
+Given the following Requirements, identify the test cases you would expect to run in the test phase (where applicable, specify the requirement the test is for). NOTE: I was kind enough to group the requirements into logical subsystems and tried to order them in a consistent way. If you find a missing requirement or conflict in the requirements, point it out (that would be exceeding expectations).
+Solution: a game where the player shoots a missile at ships passing across the screen (like the one I showed you using raptor).
+The solution must support missiles launched by the user
+The following is for 1a and 1b:
+
+Pre: The game is running
+Action: Click space bar or right mouse
+Post: Missile is fired
+
+Pre: The game is running
+Action: Push any button that is not space bar or right mouse
+Post: No missile is fired
+The solution must initiate a missile launch when the user clicks the right mouse button.
+
+
+The solution must initiate a missile launch when the user clicks the space bar.
+
+
+The solution must limit the number of active missiles on the screen to no more than five (5) at any given time. (an “active missile” is any missile currently being displayed on the screen)
+Pre: There are 5 missiles on screen 	
+Action: User tries to fire another missile
+Post: Another missile is not fired
+
+Pre: There are 5 missiles on screen
+Action: User tries to fire another missile
+Post: Another missile is fired
+The solution must remove the missile from being active if it goes off the screen.
+Pre: Missile is fired.  
+Action: Active missile goes off the screen. 
+Post: Game removes the missile from being active
+Pre: Missile is fired.  
+Action: Active missile goes off the screen. 
+Post: Game does not remove the missile from being active
+The solution must maintain the same constant speed for all missiles
+Pre: Two missiles are fired.
+Action: Speed is printed for each missile during testing
+Post: See if the missiles are fired at the same speed. 
+The solution must launch missiles from the center of the bottom of the screen when a launch is initiated
+Pre: User Presses a button to launch missile
+Action: Missile launches 
+Post: Confirm missile launches from center of the bottom of the screen
+
+Pre: User Presses a button to launch missile
+Action: Missile launches 
+Post:  Missile does not shoot from center bottom of the screen
+The solution must maintain the same constant direction for all missiles to be vertically straight up from the launched position.
+Pre: Fire two different missiles. 
+Action: Missiles fire from the screen
+Post: Missiles are shot straight vertically. 
+
+Pre: Fire two different missiles. 
+Action: Missiles fire from the screen
+Post: Missiles are  shot not straight vertically. 
+The solution must detect when a missile “hits” a ship
+Pre: Missile is shot
+Action: Missile hits ship
+Post: Count increased
+
+Pre: Missile is shot
+Action: Missile hits ship
+Post: Count not increased. 
+The solution must display an explosion at the point where a missile “hits” a ship
+Pre: Missile is shot at ship.
+Action: Missile hits a ship. 
+Post: Solution should display an explosion.
+
+Pre: Missile is shot 
+Action: Missile misses a ship.
+Post: Solution should not display an explosion.
+The solution must remove the missile and ship after the missile “hits” the ship
+Pre: Missile is visible	
+Action: Missile hits ship
+Post: Missile is no longer visible
+
+Pre: Missile if visible 
+Action: Missile hits ship
+Post: Missile remains visible
+The solution must keep a count of all “hits”
+Pre: Missile is shot at ship
+Action: Missile hits a ship
+Post: Count is incremented 
+
+Pre: User starts a game
+Action: Game is started 
+Post: Game should show zero hits every start of game
+
+Pre: Game is reaching end
+Action: The game is over.
+Post: Game should reset the hit counter to zero
+
+The solution must support ships launched by the solution
+
+
+The solution must initiate a ship launch when the system detects there are no active ships.
+Pre: There are no ships and the game is active
+Action: Game detects there are no ships
+Post: Ship is launched
+
+Pre: There are no ships and the game is active
+Action: Game detects there are no ships
+Post: Ship is not launched
+
+
+The solution must support multiple types of ships based on a configurable value.
+Pre: There are multiple types of ships 
+Action: A configurable value is inserted
+Post: Different ships are displayed.
+
+
+The solution must display the appropriate image based on the type of ship when the ship is active
+Pre: Ship of specific type is launched
+Action: Compare shown ship to the image in the ship file
+Post:  Correct ship is displayed
+Pre: Ship of specific type is launched
+Action: Compare shown ship to the image in the ship file
+Post:  Incorrect ship is displayed
+The solution must randomly initiate a ship launch based on a configurable rate where the default is 30% of the time
+
+
+The solution must randomly choose from available ship types when a launch is initiated, giving all types equal chance of being launched.
+Pre: Game has started.
+Action: Ships are launched 
+Post: Document how many of each ship is launched. 
+
+
+The solution must limit the number of active ships on the screen to no more than ten (10) at any given time. (an “active ship ” is any ship currently being displayed on the screen)
+Pre: 10 ships are on screen
+Action: Observe no ships appear until another ship has left the screen 
+Post: Document no more than 10 ships were on the screen at one time
+The solution must randomly choose a location to launch a ship from when initiated
+
+
+The system must randomly choose to launch the ship from the left side of the screen or the right side of the screen
+Pre: Game is started 
+Action: Ship is launched
+Post: Ship should launch from left or from right.
+
+Pre: Game is started
+Action: Ship is launched.
+Post: Make sure the ship only travels horizontally.
+
+Pre: Game is started 
+Action: Ship is launched
+Post: Ship should never launch from bottom or top of screen.
+The system must randomly choose a row in the top two-thirds of the screen to launch the ship from
+Pre: Ships are launched
+Action: Watch launched ships
+Post: Confirm no ships were on the bottom third of the screen
+The system must assign the speed of the ship based on the type of the ship being initiated
+Pre: Game is started 
+Action: Different ships are launched. 
+Post: Determine speed of ships by observing each ship and relative speeds. 
+
+The system must assign the direction of the ship based on which side of the screen it is being launched from (if from the left, direction goes left to right; if from the right direction goes right to left)
+Pre: Ship is launched
+Action: Observe direction ship came from and that the ship is facing the correct way 
+Post: Document ships faced the correct way 
+
+
+Pre: Ship is launched
+Action: Observe direction ship came from and that the ship is facing the incorrect way 
+Post: Document ships faced the incorrect way 
+The solution must remove the ship from being active if it goes off the screen.
+Pre: Ship is launched
+Action: Ship goes off screen
+Post: Solution should remove the ship from being active. 
+
+
+
+
+The solution must end the game when the “hit” count has reached ten (10)
+Pre: Hit count is 9 
+Action: 10th ship is hit
+Post: Game ends
+
+Pre: Hit count is 9 
+Action: 10th ship is hit
+Post: Game does not end
+The solution must end the game when the user clicks the left mouse button
+Pre: Game is active
+Action: User clicks the left mouse
+Post: Game ends
+
+Pre: Game is active
+Action: User clicks the left mouse
+Post: Game does not end
+The solution must end the game when the user clicks the esc button
+Pre: Game is started 
+Action: User presses the esc button
+Post: Game should end
+
+Pre: Game is started 
+Action: User presses other buttons other than esc 
+Post: Game should continue
+The solution must end the game if the user has not initiated a missile launch in the last 5 minutes.
+Pre: User does not initiate missile launch
+Action: Game closes out after 5 minutes
+Post: Game is closed
+
+Pre: User does not initiate missile launch
+Action: Game does not close out after 5 minutes
+Post: Game is not closed
+Combine missile test case; if no missiles are active, you click the right mouse button 6 times rapidly, you should see exactly 5 missiles.
+If you didn’t finish, it’s okay because I only care about the journey and not the destination.
+
+
+
+
