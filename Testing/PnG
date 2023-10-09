@@ -1,0 +1,47 @@
+1a/1b 	Precondition: 	When the game starts and a ship appears on the screen, start firing missiles.
+	Action: 	Player presses right click on the mouse (1a) or presses spacebar on the keyboard (1b).
+	Post Condition:	A missile appears on the screen and is launched and missile counter goes up 1.
+
+1c 	Precondition: 	Attempt to launch a missile while 5 missiles are on the screen.
+	Action:		Game doesn't add another missile.
+	Post Condition:	There are still 5 missiles on the screen.
+
+1d 	Precondition: 	Watch a missile go off the screen.
+	Action:		Game removes the missile from the count of missiles.
+	Post Condition:	There are 1 less missiles on the screen and missile counter goes down by 1.
+
+1e 	Precondition: 	All missiles should share the same speed.
+	Action:		Time the missiles from spawn to removal.
+	Post Condition:	Missiles all share same speed
+
+1f/1g 	Precondition: 	When the game starts and a ship appears on the screen, start firing missiles.
+	Action:		Verify missiles come from the center of the bottom of the screen and move vertically up the screen.
+	Post Condition:	"Missiles should come from the center of the bottom of the screen and move up, vertically."
+
+1h/1i/1j	Precondition: 	A ship appears on the screen. Spawn a missile. Make sure the ship gets hit with the missile.
+		Action:		A missile hits the ship and its collision points.
+		Post Condition:	"An explosion appears, and the missile is removed from the screen/counter."
+
+1k 	Precondition: 	A ship appears on the screen. Spawn a missile. Make sure the ship gets hit with the missile.
+	Action:		Ship get hits and ship hit counter should go up by 1.
+	Post Condition:	A separate counter for ship hits is displayed and goes up by 1 when ship gets hit.
+
+2a 	Precondition: 	Check that when there are no ships on the screen that a new one is added by the system.
+	Action:		Either start a new game or kill an existing ship.
+	Post Condition:	A new ship should be spawned.
+
+2b 			Needs Open Box testing?		
+2c			
+2d			
+2di			
+2dii			
+2diii			
+2diii1			
+2diii2			
+2diii3			
+2diii4			
+2e			
+3			
+4			
+5			
+6			
